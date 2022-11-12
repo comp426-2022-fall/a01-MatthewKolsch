@@ -1,5 +1,5 @@
 {
-  "name": "first-webserver-thing",
+  "name": "my-first-webserver-thing",
   "version": "0.0.1",
   "description": "This is a webserver built on Node.js",
   "main": "server.js",
@@ -11,10 +11,22 @@
     "type": "git",
     "url": "git+https://github.com/comp426-2022-fall/a01-MatthewKolsch.git"
   },
-  "author": "@matthewkolsch",
+  "keywords": [
+    "web",
+    "server",
+    "port",
+    "node",
+    "fs",
+    "args",
+    "http"
+  ],
+  "author": "@MatthewKolsch",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/comp426-2022-fall/a01-MatthewKolsch/issues"
   },
-  "homepage": "https://github.com/comp426-2022-fall/a01-MatthewKolsch#readme"
+  "homepage": "https://github.com/comp426-2022-fall/a01-MatthewKolsch#readme",
+  "dependencies": {
+    "minimist": "^1.2.6"
+  }
 }
